@@ -45,7 +45,7 @@ public class GameHash {
                 line--;
                 column--;
                 if(game[line][column] == 'X' || game[line][column] == 'O'){
-                    System.out.println("Occupied position !");
+                    System.out.println("\u001b[31mOccupied position !\u001b[0m");
                 }else{
                     game[line][column] = sinal;
                     move++;
